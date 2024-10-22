@@ -9,5 +9,5 @@ setup(
         ],
     },
     install_requires=["requests"],
-    python_requires=">=3.12",
+    python_requires=">=3.8",
 )
