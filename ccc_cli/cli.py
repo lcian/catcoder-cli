@@ -221,6 +221,9 @@ def submit():
     headers = {
         "cookie": f"SESSION={SESSION_COOKIE}; XSRF-TOKEN={XSRF_TOKEN}",
     }
+    if not any(file.endswith(".out") for file in os.listdir("out")):
+        print('No .out files found in the "out" directory! Run the solve script first.')
+        sys.exit(1)
     for file in list(sorted(os.listdir("out"))):
         if file.endswith(".out") and "example" not in file:
             fn = file.replace(".out", "")
