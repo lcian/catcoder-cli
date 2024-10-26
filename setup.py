@@ -8,6 +8,6 @@ setup(
             "ccc = ccc_cli.cli:main",
         ],
     },
-    install_requires=["requests"],
+    install_requires=["requests", "platformdirs", "colorama"],
     python_requires=">=3.8",
 )
