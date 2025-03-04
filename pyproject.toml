@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [project.scripts]
-ccc = "catcoder-cli.cli:main"
+ccc = "catcoder_cli.cli:main"
