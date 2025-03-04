@@ -1,5 +1,5 @@
 [project]
-name = "ccc"
+name = "catcoder-cli"
 version = "0.1.0"
 description = "A CLI for the Cloudflight Coding Contest"
 readme = "README.md"
@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [project.scripts]
-ccc = "ccc.cli:main"
+ccc = "catcoder-cli.cli:main"
