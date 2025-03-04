@@ -1,0 +1,14 @@
+[project]
+name = "ccc"
+version = "0.1.0"
+description = "A CLI for the Cloudflight Coding Contest"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+    "platformdirs>=4.3.6",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+ccc = "ccc.cli:main"
