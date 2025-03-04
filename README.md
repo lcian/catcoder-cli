@@ -5,7 +5,7 @@ This is a Python package that provides the `ccc` CLI tool to interact with the C
 ## Installation
 
 ```
-pip install ccc
+pip install catcoder-cli
 ```
 
 ## Usage
