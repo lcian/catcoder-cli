@@ -1,13 +1,11 @@
-# CCC CLI
+# CCC
 
 This is a Python package that provides the `ccc` CLI tool to interact with the Catcoder platform for the [Cloudflight Coding Contest](https://register.codingcontest.org/).
 
 ## Installation
 
-(in a virtualenv)
-
 ```
-pip install git+https://github.com/lcian/ccc-cli.git
+pip install ccc
 ```
 
 ## Usage
